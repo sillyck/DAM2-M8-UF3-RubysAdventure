@@ -291,7 +291,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.6639557, y: 0.9822097}
+  m_Offset: {x: -1.3042879, y: 1.0721269}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -302,7 +302,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.1220884, y: 2.026723}
+  m_Size: {x: 5.841424, y: 2.7203684}
   m_EdgeRadius: 0
 --- !u!1 &423443592
 GameObject:
@@ -691,6 +691,10 @@ PrefabInstance:
     - target: {fileID: 6615828023948817818, guid: 29f30de715a16534aa022865e29f1cfd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615828023948817819, guid: 29f30de715a16534aa022865e29f1cfd, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29f30de715a16534aa022865e29f1cfd, type: 3}
@@ -9530,7 +9534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9086899542175663026, guid: dabbdb094da12a04790009bc6f8eeee9, type: 3}
       propertyPath: m_SpriteSortPoint
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dabbdb094da12a04790009bc6f8eeee9, type: 3}
@@ -9919,6 +9923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ruby
       objectReference: {fileID: 0}
+    - target: {fileID: 2561839393786848598, guid: fc473cb381e4acb4fa73cc2ed43702d9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2561839393786848599, guid: fc473cb381e4acb4fa73cc2ed43702d9, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -10035,6 +10043,18 @@ PrefabInstance:
     - target: {fileID: 7245038193180263833, guid: 51ae8cde476058446b5d11922a0b4242, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245038193180263834, guid: 51ae8cde476058446b5d11922a0b4242, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245038193180263836, guid: 51ae8cde476058446b5d11922a0b4242, type: 3}
+      propertyPath: m_Size.y
+      value: 0.71274185
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245038193180263836, guid: 51ae8cde476058446b5d11922a0b4242, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.45143127
       objectReference: {fileID: 0}
     - target: {fileID: 7245038193180263837, guid: 51ae8cde476058446b5d11922a0b4242, type: 3}
       propertyPath: m_Name
